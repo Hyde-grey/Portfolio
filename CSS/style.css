@@ -275,7 +275,7 @@ h2 span, h4 span, p span{
 
 .skills img{
 
-    max-width: 60px;
+    max-width: 60%;
 }
 
 /*/////////////////////////////////////////////// Project /////////////////////////////////////////////////////////*/
@@ -392,38 +392,25 @@ footer .contact{
 /*////////////////////////////////////////////// Media Query /////////////////////////////////////////////////////////////////*/
 
 
-@media screen and (max-width:768px) {
+@media screen and (max-width:992px) {
 
     .container{
-        width: 80%;
+        width: 100%;
         margin: 0 auto;
     }
 
-    .menu ul{
-        padding: 20px;
-        margin: 0 0;
-    }
+
 
 }
 
-@media screen and (max-width:412px) {
+
+@media screen and (max-width:576px) {
 
     .container {
 
         width: 100%;
         margin: 0 auto 
 
-    }
-
-    .clouds {
-
-        display: none;
-
-    }
-
-    .menu ul{
-        padding: 20px;
-        margin: 0 0;
     }
 
     #header {
@@ -444,6 +431,93 @@ footer .contact{
 
     }
 
+    .header-text h1 {
+        font-size: 4.2rem;
+    }
+
+    /*//////////////////////////////////////////// Clouds ///////////////////////////////////////*/
+
+
+
+.clouds-left {
+
+    transform: translateX( -100% );
+
+}
+
+
+.cloud-01 {
+
+    position: absolute;
+    top: 22.5%;
+    right: 25%;
+    z-index: -1;
+
+}
+
+.cloud-02 {
+
+    position: absolute;
+    top: 23%;
+    right: 26%;
+    z-index: 1;
+
+}
+
+.cloud-03 {
+
+    position: absolute;
+    top: 30%;
+    right: 16%;
+    z-index: -1;
+
+}
+
+.cloud-04 {
+
+    position: absolute;
+    top: 25%;
+    left: 22%;
+    z-index: -1;
+
+}
+
+.cloud-05 {
+
+    position: absolute;
+    top: 35%;
+    left: 23%;
+    z-index: 1;
+
+}
+
+.cloud-06 {
+
+    position: absolute;
+    top: 29.5%;
+    right: 17%;
+    z-index: 1;
+
+}
+
+.cloud-07 {
+
+    position: absolute;
+    top: 34%;
+    right: 61%;
+    z-index: -1;
+
+}
+
+.cloud-08 {
+
+    position: absolute;
+    top: 38%;
+    right: 25%;
+    z-index: 2;
+
+}
+
     #about-me {
 
         margin-top: 70%;
@@ -452,6 +526,28 @@ footer .contact{
         padding: 20px;
         text-align: left;
 
+    }
+
+    #about-me .introduction .skills{
+       
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
+
+    }
+
+    .skills li{
+
+        width: 40%;
+        margin: 0 auto;
+
+    }
+
+    .skills img{
+       
+        display: block;
+        margin: 0 auto;
+        
     }
 
     .introduction {
