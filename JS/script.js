@@ -17,6 +17,7 @@ function toggleMain(){
 
         footer.style.display="none";
         header.style.opacity='1';
+        header.style.zIndex='1';
     
     }
     
@@ -43,6 +44,7 @@ function toggleContact(){
     
         main.style.display="none";
         header.style.opacity='1';
+        header.style.zIndex='1';
     
     }
     
