@@ -342,17 +342,23 @@ h4{
 }
 
 .project-email-title{
+
     text-align: center;
     padding: 40px;
+
 }
 
 .project-email-title h3 span{
+
     color: rgba(128, 0, 85, 0.712);
+
 }
 
 .email-containers a{
+
     display: inline-block;
     text-align: center;
+
 }
 
 .emails{
@@ -395,12 +401,18 @@ footer .container .contact a img{
 /*////////////////////////////////////////////// Media Query /////////////////////////////////////////////////////////////////*/
 
 
-@media screen and (max-width:1500px) {
+@media screen and (max-width:992px) {
 
     .container{
 
         width: 100%;
         margin: 0 auto;
+
+    }
+
+    #header {
+
+        position: static;
 
     }
 
