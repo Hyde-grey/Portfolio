@@ -386,7 +386,6 @@ h4{
 
 footer .container .contact a img{
 
-    display: block;
     max-width: 70px;
 
 }
@@ -457,16 +456,10 @@ footer .container .contact a img{
 
     }
 
-    #contact{
-
-        margin-top: 200px;
-
-    }
-
     #footer {
 
         position: absolute;
-        top: 200px;
+        top: 10%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -667,7 +660,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 200px;
+        top: 10%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
