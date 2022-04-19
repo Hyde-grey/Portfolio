@@ -416,6 +416,12 @@ footer .container .contact a img{
 
     }
 
+    .header-background {
+
+        height: auto;
+
+    }
+
     #about-me .introduction .skills{
        
         flex-wrap: wrap;
@@ -476,7 +482,6 @@ footer .container .contact a img{
         background-repeat: no-repeat;
         background-position: center 260;
 
-
     }
 
     .header-text h1 {
@@ -485,88 +490,88 @@ footer .container .contact a img{
 
     }
 
+
     /*//////////////////////////////////////////// Clouds ///////////////////////////////////////*/
 
 
+    .clouds-left {
 
-.clouds-left {
+        transform: translateX( -100% );
 
-    transform: translateX( -100% );
-
-}
+    }
 
 
-.cloud-01 {
+    .cloud-01 {
 
-    position: absolute;
-    top: 22.5%;
-    right: 25%;
-    z-index: -1;
+        position: absolute;
+        top: 22.5%;
+        right: 25%;
+        z-index: -1;
 
-}
+    }
 
-.cloud-02 {
+    .cloud-02 {
 
-    position: absolute;
-    top: 23%;
-    right: 26%;
-    z-index: 1;
+        position: absolute;
+        top: 23%;
+        right: 26%;
+        z-index: 1;
 
-}
+    }
 
-.cloud-03 {
+    .cloud-03 {
 
-    position: absolute;
-    top: 30%;
-    right: 16%;
-    z-index: -1;
+        position: absolute;
+        top: 30%;
+        right: 16%;
+        z-index: -1;
 
-}
+    }
 
-.cloud-04 {
+    .cloud-04 {
 
-    position: absolute;
-    top: 25%;
-    left: 22%;
-    z-index: -1;
+        position: absolute;
+        top: 25%;
+        left: 22%;
+        z-index: -1;
 
-}
+    }
 
-.cloud-05 {
+    .cloud-05 {
 
-    position: absolute;
-    top: 35%;
-    left: 23%;
-    z-index: 1;
+        position: absolute;
+        top: 35%;
+        left: 23%;
+        z-index: 1;
 
-}
+    }
 
-.cloud-06 {
+    .cloud-06 {
 
-    position: absolute;
-    top: 29.5%;
-    right: 17%;
-    z-index: 1;
+        position: absolute;
+        top: 29.5%;
+        right: 17%;
+        z-index: 1;
 
-}
+    }
 
-.cloud-07 {
+    .cloud-07 {
 
-    position: absolute;
-    top: 34%;
-    right: 61%;
-    z-index: -1;
+        position: absolute;
+        top: 34%;
+        right: 61%;
+        z-index: -1;
 
-}
+    }
 
-.cloud-08 {
+    .cloud-08 {
 
-    position: absolute;
-    top: 38%;
-    right: 25%;
-    z-index: 2;
+        position: absolute;
+        top: 38%;
+        right: 25%;
+        z-index: 2;
 
-}
+    }
 
     #about-me {
 
