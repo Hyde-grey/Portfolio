@@ -290,6 +290,32 @@ h2 span, h4 span, p span{
 
 }
 
+#close-main {
+
+    position: absolute;
+    top: 1%;
+    right: 10%;
+
+    font-size: 4rem;
+    color :rgba(255, 255, 255, 0.712);
+
+    cursor: pointer;
+
+}
+
+#close-footer {
+
+    position: absolute;
+    top: 10%;
+    right: 30%;
+
+    font-size: 4rem;
+    color :rgba(255, 255, 255, 0.712);
+
+    cursor: pointer;
+
+}
+
 h4{
     font-size: 2rem;
 }
@@ -459,6 +485,13 @@ footer .container .contact a img{
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
 
+    }
+
+    #close-footer {
+
+        top: 10%;
+        right: 0;
+    
     }
 
     .contact ul li{
@@ -664,6 +697,13 @@ footer .container .contact a img{
 
     .contact ul li{
         margin: 10px;
+    }
+
+    #close-footer {
+
+        top: 10%;
+        right: 0;
+    
     }
     
 }
