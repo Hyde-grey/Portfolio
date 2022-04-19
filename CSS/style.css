@@ -48,12 +48,17 @@ a{
 footer {
 
     display: none;
+    margin-top: 50px;
 
 }
 
 /*///////////////////////////////////////////////////// Menu ///////////////////////////////////////////////////////////////////////*/
 
+.menu {
 
+    z-index: 999;
+
+}
 
 .menu ul{
 
@@ -486,6 +491,8 @@ footer .container .contact a img{
 
     }
 
+
+
     #header {
 
         position: static;
@@ -632,7 +639,7 @@ footer .container .contact a img{
 
     .project {
 
-        margin: 20px auto;
+        margin: 40px auto;
     }
 
     .project img {
