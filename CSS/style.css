@@ -437,6 +437,13 @@ footer .container .contact a img{
 
     }
 
+    #close-main {
+
+        top: -1%;
+        right: 5%;
+    
+    }
+
     #header {
 
         position: static;
@@ -480,7 +487,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 20%;
+        top: 10%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -512,7 +519,11 @@ footer .container .contact a img{
 
     }
 
+    #close-main {
 
+        top: 0.1%;
+        
+    }
 
     #header {
 
@@ -688,7 +699,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 20%;
+        top: 30%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -701,8 +712,8 @@ footer .container .contact a img{
 
     #close-footer {
 
-        top: 10%;
-        right: 0;
+        top: 5%;
+        right: 5%;
     
     }
     
