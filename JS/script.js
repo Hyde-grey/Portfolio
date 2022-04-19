@@ -3,6 +3,10 @@
 let projectButton = document.getElementById('project-button'); 
 let contactButton = document.getElementById('contact-button')
 
+let closeMain = document.getElementById('close-main');
+let closeFooter = document.getElementById('close-footer');
+
+
 let main = document.getElementById('main');
 let header = document.getElementById('header');
 let contact = document.getElementById('footer');
@@ -28,7 +32,7 @@ function toggleMain(){
         header.style.zIndex='1';
     
     }else{
-        
+
         main.style.display="block";
         header.style.opacity='0.1';
         header.style.zIndex='-1';
@@ -65,5 +69,7 @@ function toggleContact(){
 
 }
 
+closeMain.addEventListener('click',toggleMain);
+closeFooter.addEventListener('click',toggleContact);
 contactButton.addEventListener('click',toggleContact);
 projectButton.addEventListener('click',toggleMain);
