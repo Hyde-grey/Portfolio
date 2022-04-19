@@ -395,14 +395,47 @@ footer .container .contact a img{
 /*////////////////////////////////////////////// Media Query /////////////////////////////////////////////////////////////////*/
 
 
-@media screen and (max-width:992px) {
+@media screen and (max-width:1500px) {
 
     .container{
+
         width: 100%;
         margin: 0 auto;
+
     }
 
+    #about-me .introduction .skills{
+       
+        flex-wrap: wrap;
+        width: 100%;
+        padding: 0;
 
+    }
+
+    .skills li{
+
+        width: 33%;
+        margin: 0 auto;
+
+    }
+
+    .skills img{
+       
+        display: block;
+        margin: 0 auto;
+        
+    }
+
+    #contact{
+
+        margin-top: 200px;
+
+    }
+
+    .contact ul li{
+        margin: 10px;
+    }
+    
 
 }
 
@@ -435,7 +468,9 @@ footer .container .contact a img{
     }
 
     .header-text h1 {
+
         font-size: 4.2rem;
+
     }
 
     /*//////////////////////////////////////////// Clouds ///////////////////////////////////////*/
