@@ -401,6 +401,8 @@ footer .container .contact a img{
 /*////////////////////////////////////////////// Media Query /////////////////////////////////////////////////////////////////*/
 
 
+/*////////////////////// TABLET////////////////////////*/
+
 @media screen and (max-width:1400px) {
 
     .container{
@@ -450,6 +452,16 @@ footer .container .contact a img{
 
     }
 
+    #footer {
+
+        position: absolute;
+        top: 200px;
+        left: 50%;
+        transform: translate(-50% , -50%);
+        -webkit-transform: translate(-50%, -50%);
+
+    }
+
     .contact ul li{
         margin: 10px;
     }
@@ -457,6 +469,7 @@ footer .container .contact a img{
 
 }
 
+/*//////////////////// MOBILE ///////////////////////////*/
 
 @media screen and (max-width:576px) {
 
