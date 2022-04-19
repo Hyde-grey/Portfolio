@@ -48,7 +48,7 @@ a{
 footer {
 
     display: none;
-    margin-top: 50px;
+    transition: .5s ease-in;
 
 }
 
@@ -459,7 +459,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
@@ -660,7 +660,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 10%;
+        top: 15%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
