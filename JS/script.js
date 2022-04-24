@@ -15,8 +15,6 @@ let mainDisplay = main.style.display;
 
 function toggleMain(){
 
-    console.log ('function launched');
-
     if( footer.style.display=="block" ){
 
         footer.style.display="none";
@@ -42,8 +40,6 @@ function toggleMain(){
 }
 
 function toggleContact(){
-
-    console.log ('function launched');
 
     if( main.style.display=="block" ){
     
