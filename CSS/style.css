@@ -535,6 +535,12 @@ footer .container .contact a img{
 
     }
 
+    #to-top {
+
+        right: 5%;
+
+    }
+
     #close-footer {
 
         top: 10%;
@@ -702,6 +708,12 @@ footer .container .contact a img{
         display: block;
         margin: 0 auto;
         
+    }
+
+    #to-top a{
+
+        color: rgba(128, 0, 85, 0.712);
+
     }
 
     .introduction {
