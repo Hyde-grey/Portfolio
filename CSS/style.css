@@ -305,6 +305,23 @@ h2 span, h4 span, p span{
 
 }
 
+#to-top{
+
+    position: fixed;
+    bottom: 5%;
+    right: 10%;
+
+    font-size: 4rem;
+    color :rgba(255, 255, 255, 0.712);
+
+    cursor: pointer;
+
+    opacity: 0;
+
+    transition: all ease-in-out 0.5s;
+
+}
+
 #close-footer {
 
     position: absolute;
@@ -331,6 +348,8 @@ h4{
     margin: 5% auto;
     
     margin-top: 50px;
+
+    overflow: hidden;
 }
 
 
@@ -396,9 +415,19 @@ h4{
 
 }
 
-.emails{
+.flex-container-emails {
 
-    width: 60%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    width: 100%;
+    margin: 0 auto;
+
+}
+
+.email-containers img {
+
+    width: 80%;
     margin: 0 auto;
 
 }
