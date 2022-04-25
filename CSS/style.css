@@ -321,6 +321,8 @@ h2 span, h4 span, p span{
 
     transition: all ease-in-out 0.5s;
 
+    z-index: 2;
+
 }
 
 #close-footer {
