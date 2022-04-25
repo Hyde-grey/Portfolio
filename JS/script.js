@@ -1,7 +1,8 @@
 
 
 let projectButton = document.getElementById('project-button'); 
-let contactButton = document.getElementById('contact-button')
+let contactButton = document.getElementById('contact-button');
+let toTopButton = document.getElementById('to-top');
 
 let closeMain = document.getElementById('close-main');
 let closeFooter = document.getElementById('close-footer');
@@ -65,6 +66,24 @@ function toggleContact(){
 
 }
 
+function toTop(){
+
+    let y = window.scrollY;
+
+
+    if ( y >= 800 ) {
+
+        toTopButton.style.opacity = "1"
+
+    }else{
+
+        toTopButton.style.opacity = "0"
+
+    }
+
+}
+
+window.addEventListener('scroll',toTop);
 closeMain.addEventListener('click',toggleMain);
 closeFooter.addEventListener('click',toggleContact);
 contactButton.addEventListener('click',toggleContact);
