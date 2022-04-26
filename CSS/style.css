@@ -528,7 +528,7 @@ footer .container .contact a img{
     #footer {
 
         position: absolute;
-        top: 10%;
+        top: 20%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
