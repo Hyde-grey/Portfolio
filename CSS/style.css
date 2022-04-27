@@ -521,14 +521,14 @@ footer .container .contact a img{
 
     #main {
 
-        margin: 0 auto;
+        margin: 50 auto;
 
     }
 
     #footer {
 
         position: absolute;
-        top: 20%;
+        top: 40%;
         left: 50%;
         transform: translate(-50% , -50%);
         -webkit-transform: translate(-50%, -50%);
