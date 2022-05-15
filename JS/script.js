@@ -1,40 +1,55 @@
+'use strict';
 
+/////////////////////////  BUTTONS  ////////////////////////////////////
 
 let projectButton = document.getElementById('project-button'); 
 let contactButton = document.getElementById('contact-button');
 let toTopButton = document.getElementById('to-top');
 
+////////////////////////////  CLOSING BUTTONS  ///////////////////////////
+
 let closeMain = document.getElementById('close-main');
 let closeFooter = document.getElementById('close-footer');
 
+///////////////////////////   ELEMENTS to TOGGLE HIDE    ///////////////////////////////
 
 let main = document.getElementById('main');
 let header = document.getElementById('header');
 let contact = document.getElementById('footer');
 
-let mainDisplay = main.style.display;
-
 function toggleMain(){
 
-    if( footer.style.display=="block" ){
+    if( footer.style.height=="auto" ){
 
-        footer.style.display="none";
+        contact.style.height="0";
+        contact.style.opacity="0";
         header.style.opacity='1';
         header.style.zIndex='1';
+
+        contact.style.zIndex='-1';
+        closeMain.style.display="none";
     
     }
     
-    if( main.style.display=="block" ){
+    if( main.style.height=="auto" ){
 
-        main.style.display="none";
+        main.style.height="0";
+        main.style.opacity="0";
         header.style.opacity='1';
         header.style.zIndex='1';
+
+        closeMain.style.display="none";
+        main.style.zIndex='-1';
     
     }else{
 
-        main.style.display="block";
+        main.style.height="auto";
+        main.style.opacity="1";
         header.style.opacity='0.1';
         header.style.zIndex='-1';
+
+        main.style.zIndex='2';
+        closeMain.style.display="block";
         
     }
 
@@ -42,44 +57,46 @@ function toggleMain(){
 
 function toggleContact(){
 
-    if( main.style.display=="block" ){
+    if( main.style.height=="auto" ){
     
-        main.style.display="none";
+        main.style.height="0";
+        main.style.opacity="0";
         header.style.opacity='1';
         header.style.zIndex='1';
+
+        main.style.zIndex='-1';
+        closeMain.style.display="none";
     
     }
     
-    if( footer.style.display=="block" ){
+    if( footer.style.height=="auto" ){
 
-        footer.style.display="none";
+        contact.style.height="0";
+        contact.style.opacity="0";
         header.style.opacity='1';
         header.style.zIndex='1';
+
+        contact.style.zIndex='-2';
     
     }else{
         
-        footer.style.display="block";
+        contact.style.height="auto";
+        contact.style.opacity="1";
         header.style.opacity='0.1';
         header.style.zIndex='-1';
+
+        contact.style.zIndex='2';
         
     }
 
 }
 
+
 function toTop(){
 
     let y = window.scrollY;
 
-
-    if ( y >= 800 ) {
-
-        toTopButton.style.opacity = "1"
-
-    }else{
-
-        toTopButton.style.opacity = "0"
-
-    }
+    y >= 800 ? toTopButton.style.opacity = "1" : toTopButton.style.opacity = "0";
 
 }
 
