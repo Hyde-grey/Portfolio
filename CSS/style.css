@@ -35,21 +35,23 @@ a{
 
     position: fixed;
     opacity: 1;
-    transition: .5s ease-in;
+    transition: .5s ease-in-out;
 }
 
 #main {
 
-    display: none;
-    transition: .5s ease-in;
+    height: 0;
+    opacity: 0;
+    transition: 1s ease-in-out;
 
 }
 
 
 footer {
 
-    display: none;
-    transition: .5s ease-in;
+    height: 0;
+    opacity: 0;
+    transition: 1s ease-in-out;
 
 }
 
@@ -290,6 +292,7 @@ h2 span, h4 span, p span{
     top: 10%;
     width: 100vw;
     padding-bottom: 10%;
+
 
 }
 
