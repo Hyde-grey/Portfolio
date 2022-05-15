@@ -44,6 +44,8 @@ a{
     opacity: 0;
     transition: 1s ease-in-out;
 
+    z-index: -1;
+
 }
 
 
@@ -52,6 +54,8 @@ footer {
     height: 0;
     opacity: 0;
     transition: 1s ease-in-out;
+
+    z-index: -1;
 
 }
 
@@ -292,7 +296,6 @@ h2 span, h4 span, p span{
     top: 10%;
     width: 100vw;
     padding-bottom: 10%;
-
 
 }
 
